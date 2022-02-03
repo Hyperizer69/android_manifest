@@ -5,6 +5,9 @@
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.0" />
+  
+  <remote  name="UsiFX"
+           fetch="https://github.com/UsiFX"
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -79,13 +82,12 @@
   <project path="hardware/qcom-caf/msm8994/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8994" />
   <project path="hardware/qcom-caf/msm8994/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8994" />
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8996" /-->
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" groups="pdk,qcom,qcom_display" remote="UsiFX" revision="12" />
   <project path="hardware/qcom-caf/msm8996-R/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8996-R" />
   <project path="hardware/qcom-caf/msm8996-R/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8996-R" />
   <project path="hardware/qcom-caf/msm8996-R/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8996-R" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8998" />
   <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" groups="qcom,qcom_media" remote="arrow" revision="arrow-12.0-caf-sdm660" />
   <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-sdm660" />
